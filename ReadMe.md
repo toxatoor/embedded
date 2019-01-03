@@ -1,5 +1,9 @@
-# Tools and guides for embedded/mobile/portable equipment 
+# Tools, guides and tips&tricks
 
-## a5v11 - portable 3G/4G router 
+## [a5v11](a5v11) 
 
-## android - Android phones
+Stuff related to RaLink RT5350 SoC based 3G/4G router
+
+## [android](android) 
+
+Stuff related to Android phones
