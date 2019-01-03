@@ -2,7 +2,7 @@
 
 [OpenWrt description page](https://openwrt.org/toh/unbranded/a5-v11)
 
-# MTD partition table
+# MTD partition table (OpenWrt kernel)
 ```
 # cat /proc/mtd
 dev:    size   erasesize  name
@@ -13,6 +13,29 @@ mtd3: 003b0000 00001000 "firmware"
 mtd4: 0011b4ef 00001000 "kernel"
 mtd5: 00294b11 00001000 "rootfs"
 mtd6: 00041000 00001000 "rootfs_data"
+```
+
+# /proc/cpuinfo
+```
+# cat /proc/cpuinfo
+system type             : Ralink RT5350 id:1 rev:3
+machine                 : A5-V11
+processor               : 0
+cpu model               : MIPS 24KEc V4.12
+BogoMIPS                : 239.61
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : yes
+hardware watchpoint     : yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa                     : mips1 mips2 mips32r1 mips32r2
+ASEs implemented        : mips16 dsp
+shadow register sets    : 1
+kscratch registers      : 0
+package                 : 0
+core                    : 0
+VCED exceptions         : not available
+VCEI exceptions         : not available
 ```
 
 # Files
