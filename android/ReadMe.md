@@ -18,6 +18,13 @@ Latest platform-tools
 - dropbear 
 - strace 
 
+[parted_gdisk_fdisk_mkfs.ext4-AARCH64.zip](parted_gdisk_fdisk_mkfs.ext4-AARCH64.zip) - statically build binaries for block device manipulation, including
+
+- fdisk
+- gdisk
+- mkfs.ext4
+- parted
+
 Could be used for extending non-rooted phones. 
 
 Non-rooted phones don't allow to execute binaries from /sdcard and any other available location under the visble part of FS tree. However, most of firmwares have a hidden directory allowing to set executable bit: /data/local/tmp. 
