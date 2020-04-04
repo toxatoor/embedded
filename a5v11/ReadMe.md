@@ -2,6 +2,11 @@
 
 [OpenWrt description page](https://openwrt.org/toh/unbranded/a5-v11)
 
+# Common OpenWRT environment
+```
+opkg install bash vim-fuller screen tmux socat procps-ng-ps procps-ng-top procps-ng-watch lftp curl nginx-ssl ip-bridge ip-full mtr less git openssh-client openssh-client-utils openssh-keygen openssh-sftp-client openssl-util iputils-ping usbutils bind-host tcpdump
+```
+
 # MTD partition table (OpenWrt kernel)
 ```
 # cat /proc/mtd
